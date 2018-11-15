@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+
+    <ImageView
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_left"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="vertical">
+
+
+    <customfonts.MyTextView_SF_Pro_Display_Medium
+        android:layout_gravity="end"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHENNAI, INDIA"
+        android:textColor="#3b3b3b"
+        android:layout_marginLeft="2dp"
+        android:textSize="10sp"/>
+
+        <ImageView
+            android:layout_width="95dp"
+            android:layout_height="1.5dp"
+            android:layerType="software"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/rect_dotted"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_gravity="end"
+        android:layout_marginLeft="45dp"
+        android:layout_width="17dp"
+        android:layout_height="19dp"
+        android:src="@drawable/ic_placeholder"/>
+
+
+
+
+</android.support.v7.widget.Toolbar>
